@@ -20,7 +20,7 @@ body {
 
 /* Unified background for all main sections */
 .main-content {
-    background: linear-gradient(135deg, #0A192F 0%, #0A192F);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff);
 }
 
 #particles-js {
