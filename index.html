@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Software Testing Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    
+</head>
+<body>
+    <div id="particles-js" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;"></div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Vedant Sakpal | QA Engineer</span>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <background: linear-gradient(135deg, #f5f7fa 0%, #cde3f7 100%)!important;></background:>
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <background: linear-gradient(135deg, #f5f7fa 0%, #cde3f7 100%)!important;></background:>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <a href="profile.html" class="profile-link">
+                    <div class="profile-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <!-- Background Animation Elements -->
+            <div class="hero-background">
+                <div class="bg-circle bg-circle-1"></div>
+                <div class="bg-circle bg-circle-2"></div>
+                <div class="bg-circle bg-circle-3"></div>
+                <div class="bg-circle bg-circle-4"></div>
+                <div class="bg-square bg-square-1"></div>
+                <div class="bg-square bg-square-2"></div>
+                <div class="bg-square bg-square-3"></div>
+                <div class="bg-triangle bg-triangle-1"></div>
+                <div class="bg-triangle bg-triangle-2"></div>
+                <div class="bg-triangle bg-triangle-3"></div>
+                <div class="bg-dots">
+                    <div class="bg-dot"></div>
+                    <div class="bg-dot"></div>
+                    <div class="bg-dot"></div>
+                    <div class="bg-dot"></div>
+                    <div class="bg-dot"></div>
+                    <div class="bg-dot"></div>
+                </div>
+            </div>
+            <div class="glassmorphic-bg"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="title-container">
+                        <h1 class="hero-title">
+                            <span class="title-line1">Software Testing</span>
+                            <span class="title-line2">Professional</span>
+                        </h1>
+                        <div class="title-glow"></div>
+                    </div>
+                    <p class="hero-subtitle">Helping you build high-quality software with care and precision.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-text">View Projects</span>
+                            <span class="btn-glow"></span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span class="btn-text">Get In Touch</span>
+                            <span class="btn-glow"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-animation">
+                        <div class="testing-scene">
+                            <div class="browser-window">
+                                <div class="browser-header">
+                                    <div class="browser-dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="test-elements">
+                                        <div class="test-element" data-test="login"></div>
+                                        <div class="test-element" data-test="search"></div>
+                                        <div class="test-element" data-test="cart"></div>
+                                        <div class="test-element" data-test="checkout"></div>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floating-icons">
+                                <div class="floating-icon" data-icon="🔍"></div>
+                                <div class="floating-icon" data-icon="⚡"></div>
+                                <div class="floating-icon" data-icon="🛡️"></div>
+                                <div class="floating-icon" data-icon="📊"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Testing Expertise</h2>
+                <p class="section-subtitle">Comprehensive testing methodologies and tools</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Selenium</h3>
+                        <p>Automated web testing with Java and Python. Creating robust test frameworks and CI/CD integration.</p>
+                        <div class="skill-tags">
+                            <span class="tag">WebDriver</span>
+                            <span class="tag">TestNG</span>
+                            <span class="tag">Page Object</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>JMeter</h3>
+                        <p>Performance and load testing expertise. Stress testing, scalability analysis, and performance optimization.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Load Testing</span>
+                            <span class="tag">Stress Testing</span>
+                            <span class="tag">Performance</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <h3>Manual Testing</h3>
+                        <p>Comprehensive manual testing including functional, UI/UX, and exploratory testing methodologies.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Functional</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Exploratory</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Regression Testing</h3>
+                        <p>Systematic regression testing strategies ensuring software stability across releases and updates.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Automation</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">Stability</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>TestNG</h3>
+                        <p>Advanced test framework implementation with parallel execution, data providers, and reporting.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Parallel</span>
+                            <span class="tag">Data Providers</span>
+                            <span class="tag">Reporting</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Test Strategy</h3>
+                        <p>End-to-end test strategy development, risk assessment, and quality assurance planning.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Strategy</span>
+                            <span class="tag">Risk Assessment</span>
+                            <span class="tag">QA Planning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world testing implementations and solutions</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Test Automation</h3>
+                            <p>Comprehensive test automation framework for e-commerce platform using Selenium and TestNG.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Selenium</span>
+                                <span class="tech-tag">TestNG</span>
+                                <span class="tech-tag">Java</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Performance Testing Suite</h3>
+                            <p>JMeter-based performance testing framework for web applications with detailed reporting.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JMeter</span>
+                                <span class="tech-tag">Performance</span>
+                                <span class="tech-tag">Reporting</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Mobile App Testing</h3>
+                            <p>Comprehensive mobile application testing including manual and automated test scenarios.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Mobile Testing</span>
+                                <span class="tech-tag">Appium</span>
+                                <span class="tech-tag">Manual</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>API Testing Framework</h3>
+                            <p>REST API testing framework with automated validation and comprehensive test coverage.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">REST API</span>
+                                <span class="tech-tag">Postman</span>
+                                <span class="tech-tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to discuss your testing needs</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>your.email@example.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <p>linkedin.com/in/yourprofile</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <p>github.com/yourusername</p>
+                            </div>
+                        </div>
+                        
+                                                <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Resume</h3>
+                                <p><a href="Vedant_Sakpal_QA_Resume.pdf" download>Download Resume</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" data-aos="fade-left">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Software Testing Portfolio. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</body>
+</html>
